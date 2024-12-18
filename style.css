@@ -1,0 +1,66 @@
+body {
+    font-family: "Playfair Display", serif;
+}
+
+.article-wrapper {
+    max-width: 800px;
+    display: block;
+    margin: auto;
+}
+
+p {
+    margin: 1em 0;
+    text-align: left;
+}
+
+/* Little tweaks to paragraph spacing to make it look better on mobile */
+@media (max-width: 500px) {
+    p {
+        margin: .8em 0; /* Increased top and bottom margin for mobile */
+    }
+
+    .article-wrapper {
+        display: block;
+        margin: auto;
+    }
+}
+
+
+.article-heading-wrapper {
+    text-align: center;
+}
+
+.article-image-wrapper-outer {
+    width: 800px;
+    display: block;
+    margin: auto;
+}
+
+.article-image-caption {
+    text-align: center;
+    font-size: small;
+    margin-top: 1em;
+}
+
+.headline {
+    text-align: left;
+}
+
+.subhead {
+    font-size: 1em;
+    text-align: left;
+    color: #363636;
+    margin: 2em 0;
+}
+
+img {
+    width: 800px;
+    height: auto;
+}
+
+#sankey {
+    margin-top: 2em;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
